@@ -61,20 +61,21 @@ Next, you'll setup your local environment to run the tool.  It's run using Node
     aws_secret_access_key = [SECRET KEY FROM AWS]
     ```
 
-2.	Setup NodeJS and NPM:
+3.	Setup NodeJS and NPM:
 
     ```
     brew install node
     ```
 
-3.	Get the code and install dependencies:
+4.	Get the code and install dependencies:
 
     ```
     git clone  https://github.com/alexa/interactive-adventure-game-tool.git
+    cd interactive-adventure-game-tool
     npm install
     ```
 
-4.	Launch:
+5.	Launch:
 
     ```
     npm start
